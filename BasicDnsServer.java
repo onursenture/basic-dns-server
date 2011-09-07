@@ -29,6 +29,7 @@ public final class BasicDnsServer
     ArrayList<Integer> insertedIndexes;
     private static BufferedWriter bw = null;
     private static BufferedWriter bw2 = null;
+    private static int testGit = 0;
 
     public BasicDnsServer(double loadFactor, int bkfr, String recQueFile, String outputFile, String resultsFile) throws FileNotFoundException, IOException
     {
